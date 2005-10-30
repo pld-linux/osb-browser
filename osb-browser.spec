@@ -1,5 +1,5 @@
-#
 Summary:	GTK-Webcore Browser
+Summary(pl):	Przegl±darka GTK-Webcore
 Name:		osb-browser
 Version:	0.5.0
 Release:	0.1
@@ -17,31 +17,18 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 GTK Webcore Browser.
 
+%description -l pl
+Przegl±darka GTK Webcore.
+
 %prep
 %setup -q
 
 %build
-# if ac/am/* rebuilding is necessary, do it in this order and add
-# appropriate BuildRequires
-#%%{__gettextize}
-#%%{__libtoolize}
-#%%{__aclocal}
-#%%{__autoconf}
-#%%{__autoheader}
-#%%{__automake}
-#cp -f /usr/share/automake/config.sub .
 %configure
 %{__make}
 
-#%{__make} \
-#	CFLAGS="%{rpmcflags}" \
-#	LDFLAGS="%{rpmldflags}"
-
 %install
 rm -rf $RPM_BUILD_ROOT
-# create directories if necessary
-#install -d $RPM_BUILD_ROOT
-#install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
