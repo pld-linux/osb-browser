@@ -3,7 +3,7 @@ Summary:	GTK-Webcore Browser
 Name:		osb-browser
 Version:	0.5.0
 Release:	0.1
-License:	GPL?
+License:	GPL
 Group:		Development/Libraries
 Source0:	http://dl.sourceforge.net/gtk-webcore/%{name}-%{version}.tar.gz
 # Source0-md5:	4dad43f6e1291dfefaec6e9209928a0d
