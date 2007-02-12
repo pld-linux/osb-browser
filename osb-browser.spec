@@ -1,5 +1,5 @@
 Summary:	GTK-Webcore Browser
-Summary(pl):	Przegl±darka GTK-Webcore
+Summary(pl.UTF-8):   PrzeglÄ…darka GTK-Webcore
 Name:		osb-browser
 Version:	0.5.0
 Release:	0.1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 GTK-Webcore Browser.
 
-%description -l pl
-Przegl±darka GTK-Webcore.
+%description -l pl.UTF-8
+PrzeglÄ…darka GTK-Webcore.
 
 %prep
 %setup -q
