@@ -1,5 +1,5 @@
 Summary:	GTK-Webcore Browser
-Summary(pl.UTF-8):   Przeglądarka GTK-Webcore
+Summary(pl.UTF-8):	Przeglądarka GTK-Webcore
 Name:		osb-browser
 Version:	0.5.0
 Release:	0.1
